@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
         primary: "",
         secondary: "",
-        dark: "",
+        dark: "#131313",
+        semidark: "#191A1B",
         light: "",
       }
     },

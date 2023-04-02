@@ -1,12 +1,18 @@
 import React from 'react'
 
+import logo from "../assets/logo.png"
+import user from "../assets/user.png"
+
+
 const Header = () => {
   return (
-    <nav>
-        <img src='' alt='' />
-        <div>
-            <img src='' alt='' />
-            <p>Martinez George</p>
+    <nav className='bg-dark broder-b border-gray/10'>
+        <div className='flex justify-between items-center py-3 px-5'>
+            <img src={logo} alt='logo' />
+            <div className='flex items-center gap-2 text-white mr-10'>
+                <img src={user} alt='user' />
+                <p>Martinez George</p>
+            </div>
         </div>
     </nav>
   )
