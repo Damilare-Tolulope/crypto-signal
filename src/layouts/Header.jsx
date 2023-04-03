@@ -6,7 +6,7 @@ import user from "../assets/user.png"
 
 const Header = () => {
   return (
-    <nav className='bg-dark broder-b border-gray/10'>
+    <nav className='bg-dark border-b border-white/5 fixed w-full'>
         <div className='flex justify-between items-center py-3 px-5'>
             <img src={logo} alt='logo' />
             <div className='flex items-center gap-2 text-white mr-10'>
