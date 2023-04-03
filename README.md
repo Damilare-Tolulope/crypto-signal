@@ -6,8 +6,8 @@ This project was bootstrapped with [vite-plugin-react-pages](https://github.com/
 
 ## Links
 
-[Live link ](https://77364551.crypto-signal.pages.dev/)
-[Figma link](https://www.figma.com/file/16wgeN0woCF60IX4XISe1w/VBA-Crypto-Signals-Test?node-id=1923-3373&t=5BxaDa3krciABMUm-0) 
+- [Live link ](https://77364551.crypto-signal.pages.dev/)
+- [Figma link](https://www.figma.com/file/16wgeN0woCF60IX4XISe1w/VBA-Crypto-Signals-Test?node-id=1923-3373&t=5BxaDa3krciABMUm-0) 
 
 ## Running the app locally
 
