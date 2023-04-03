@@ -9,8 +9,8 @@ const Sidebar = () => {
     <aside className={styles.aside}>
       <ul className={styles.links}>
         {links.slice(0,4).map(({ icon, label, route }) => (
-          <li>
-            <NavLink className={({ isActive }) => ( isActive ? styles.activeLink : styles.link )} key={label} to={route}>
+          <li key={label}>
+            <NavLink className={({ isActive }) => ( isActive ? styles.activeLink : styles.link )} to={route}>
                 <img src={icon} alt={label} />
                 <span>{label}</span>
             </NavLink>
@@ -20,8 +20,8 @@ const Sidebar = () => {
         {links.slice(4,6).map(({ icon, label, route }, index) => {
           if(index === 1){
             return (
-              <li>
-                <NavLink className={({ isActive }) => ( isActive ? styles.activeLink : `${styles.link} !text-primary` )} key={label} to={route}>
+              <li key={label}>
+                <NavLink className={({ isActive }) => ( isActive ? styles.activeLink : `${styles.link} !text-primary` )} to={route}>
                     <img src={icon} alt={label} />
                     <span>{label}</span>
                 </NavLink>

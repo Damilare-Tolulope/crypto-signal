@@ -1,33 +1,39 @@
 import React from 'react'
-import { Chart } from 'react-google-charts'
+import { Doughnut } from 'react-chartjs-2'
+import {Chart, ArcElement} from 'chart.js'
+Chart.register(ArcElement);
 
 const MyWallet = () => {
-  const data = [
-    ["Wallet", "Rate"],
-    ["BTC 36.77%", 15],
-    ["USDT 36.77%", 14],
-    ["Others 36.77%", 13],
-    ["BNB 36.77%", 8],
-  ];
-  
+  const data = {
+    labels: ['Red', 'Blue', 'Yellow'],
+    datasets: [
+      {
+        data: [300, 150, 200, 50, 150],
+        backgroundColor: ['#FF8B00', '#0019F8', '#D00BF0', '#FFFFFF', '#00B6FF'],
+        hoverBackgroundColor: ['#FF8B00', '#0019F8', '#D00BF0', '#FFFFFF', '#00B6FF'],
+        borderWidth: 0,
+        cutout: '90%',
+      },
+    ]
+  }
   const options = {
-    pieHole: 0.9,
-    is3D: false,
-    backgroundColor: "transparent",
-    color: "white"
-  };
+    maintainAspectRatio: false,
+    legend: {
+      display: false,
+      position: "right"
+    },
+  }
+  
   return (
     <div className={styles.container}>
         <h2 className={styles.heading}>My Wallet</h2>
 
-        <div>
-        <Chart
-          chartType="PieChart"
-          width="100%"
-          height="150px"
-          data={data}
-          options={options}
-        />
+        <div className='relative text-center'>
+          <div className='absolute text-white top-1/3 left-1/3'>
+            <p className='text-3xl'>$5000</p>
+            <p className='text-xs'>Total balance</p>
+          </div>
+          <Doughnut data={data} options={options} />
         </div>
 
     </div>
