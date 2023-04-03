@@ -9,6 +9,9 @@ export default {
         dark: "#131313",
         semidark: "#191A1B",
         light: "#2C2C2C",
+      }, 
+      maxWidth: {
+        full: "1440px"
       }
     },
   },

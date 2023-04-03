@@ -31,7 +31,7 @@ const GroupMembershipCard = ({ group }) => {
 const styles = {
     section: "text-white rounded-xl border border-light w-full",
     head: "text-white",
-    btn: "text-xs text-primary border-2 border-primary mt-5",
+    btn: "text-xs text-primary border border-primary mt-5",
     memConn: "flex items-center justify-between",
     miniHead: "text-white/80 text-sm mt-5",
     value: "font-bold text-2xl py-2",

@@ -49,7 +49,7 @@ const Sidebar = () => {
 };
 
 const styles = {
-    aside: "bg-dark w-1/5 px-5 h-full fixed",
+    aside: "bg-dark 2xl:w-1/12 w-1/5 px-5 h-full fixed",
     links: "py-5",
     link: "flex my-1 cursor-pointer items-center gap-3 text-white/40 font-medium py-3 px-5 transition linear duration-300 hover:text-primary",
     activeLink: "flex items-center py-3 px-5 transition linear duration-300 gap-3 font-bold ml-5 border-l-2 border-primary text-primary"

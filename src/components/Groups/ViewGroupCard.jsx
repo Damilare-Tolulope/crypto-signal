@@ -41,7 +41,7 @@ const styles = {
   groupDetail: "flex gap-3 items-center",
   groupType: "text-xs text-white/80 mt-1",
   group: "cursor-pointer transition linear duration-300 hover:bg-white/5 flex gap-2 text-white font-bold items-center px-5 py-3 border-t border-light",
-  btn: "text-xs text-primary border-2 border-primary mt-5",
+  btn: "text-xs text-primary border border-primary mt-5",
   allocationHead: " mt-5 text-white/60",
   allocationValue: "text-2xl font-bold",
   subscription: "my-5",
