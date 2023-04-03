@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300;400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.wallet-table tr {
+    border-bottom: 1px solid #2C2C2C;
+}
+.wallet-table tbody tr:last-child {
+    border-bottom: 0;
+}
+.wallet-table tr td {
+    padding: 0.8rem 1.25rem;
+}

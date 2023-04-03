@@ -1,9 +1,18 @@
 import React from 'react'
+import ExchangeWalletTable from './components/ExchangeWalletTable'
+import MyWallet from './components/MyWallet'
+import SignalGroups from './components/SignalGroups'
 
-const index = () => {
+const Dashboard = () => {
   return (
-    <div>index</div>
+    <div>
+      <div className='flex gap-5 mb-5'>
+        <MyWallet />
+        <ExchangeWalletTable />
+      </div>
+      <SignalGroups />
+    </div>
   )
 }
 
-export default index
+export default Dashboard
