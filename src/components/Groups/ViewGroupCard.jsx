@@ -12,7 +12,7 @@ const ViewGroupCard = ({ group }) => {
               </div>
               <p className={styles.groupType}>{group.type} Group</p>
             </div>
-            <Button className="text-primary text-xs px-0">Edit Signal Group</Button>
+            <Button className="text-primary text-xs !px-0">Edit Signal Group</Button>
         </div>
         <div>
             <p className={styles.allocationHead}>Minimun Allocation</p>
