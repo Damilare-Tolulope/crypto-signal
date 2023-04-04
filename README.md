@@ -15,7 +15,7 @@ Here are the steps to follow to run the frontend server.
 
 1. Install Node.js and NPM: To get started with React Vite, you will need Node.js and NPM installed on your system. You can download and install Node.js from the official website https://nodejs.org/en/.
 
-2. Install dependencies: Once the repository has been cloned, navigate to the project (`./talentplus-vetting-task`) directory in your terminal and run the following command to install the project dependencies:
+2. Install dependencies: Once the repository has been cloned, navigate to the project (`./crypto-signal`) directory in your terminal and run the following command to install the project dependencies:
 
 ```bash
 $ npm install
