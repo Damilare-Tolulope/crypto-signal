@@ -38,7 +38,7 @@ const ViewGroupCard = ({ group }) => {
 const styles = {
   section: "rounded-xl border border-light w-full p-5 text-white",
   head: "flex items-center justify-between",
-  groupDetail: "flex gap-3 items-center",
+  groupDetail: "flex gap-2 items-center",
   groupType: "text-xs text-white/80 mt-1",
   group: "cursor-pointer transition linear duration-300 hover:bg-white/5 flex gap-2 text-white font-bold items-center px-5 py-3 border-t border-light",
   btn: "text-xs text-primary border border-primary mt-5",

@@ -29,7 +29,7 @@ const Sidebar = () => {
             )
           }else {
             return (
-              <li>
+              <li key={label}>
                 <NavLink className={({ isActive }) => ( isActive ? styles.activeLink : styles.link )} key={label} to={route}>
                     <img src={icon} alt={label} />
                     <span>{label}</span>
